@@ -1,3 +1,16 @@
-# Strapi application
+# Sudanna Life
 
-A quick description of your strapi application
+
+When we shine
+
+--
+
+download the app and run
+
+```
+yarn install
+```
+
+```
+yarn develop
+```
