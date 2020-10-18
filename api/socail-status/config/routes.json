@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/socail-statuses",
+      "handler": "socail-status.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/socail-statuses/count",
+      "handler": "socail-status.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/socail-statuses/:id",
+      "handler": "socail-status.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/socail-statuses",
+      "handler": "socail-status.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/socail-statuses/:id",
+      "handler": "socail-status.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/socail-statuses/:id",
+      "handler": "socail-status.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
