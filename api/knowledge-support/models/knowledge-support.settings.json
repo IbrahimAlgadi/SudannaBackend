@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "knowledge_supports",
+  "info": {
+    "name": "KnowledgeSupport"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "contrib": {
+      "type": "string"
+    }
+  }
+}

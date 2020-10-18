@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/knowledge-supports",
+      "handler": "knowledge-support.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/knowledge-supports/count",
+      "handler": "knowledge-support.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/knowledge-supports/:id",
+      "handler": "knowledge-support.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/knowledge-supports",
+      "handler": "knowledge-support.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/knowledge-supports/:id",
+      "handler": "knowledge-support.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/knowledge-supports/:id",
+      "handler": "knowledge-support.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

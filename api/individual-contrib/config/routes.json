@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/individual-contribs",
+      "handler": "individual-contrib.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/individual-contribs/count",
+      "handler": "individual-contrib.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/individual-contribs/:id",
+      "handler": "individual-contrib.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/individual-contribs",
+      "handler": "individual-contrib.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/individual-contribs/:id",
+      "handler": "individual-contrib.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/individual-contribs/:id",
+      "handler": "individual-contrib.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

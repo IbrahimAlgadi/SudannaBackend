@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hardware_types",
+  "info": {
+    "name": "HardwareType"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hardware": {
+      "type": "string"
+    }
+  }
+}
