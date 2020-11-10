@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countries",
+  "info": {
+    "name": "country"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ar_name": {
+      "type": "string"
+    },
+    "en_name": {
+      "type": "string"
+    },
+    "continent_name": {
+      "type": "string"
+    },
+    "is_visible": {
+      "type": "boolean"
+    }
+  }
+}

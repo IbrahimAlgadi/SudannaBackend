@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contest_goals",
+  "info": {
+    "name": "contest_goal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ar_title": {
+      "type": "string"
+    },
+    "en_title": {
+      "type": "string"
+    }
+  }
+}

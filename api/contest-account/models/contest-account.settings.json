@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contest_accounts",
+  "info": {
+    "name": "contest_account",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ar_name": {
+      "type": "string"
+    },
+    "en_name": {
+      "type": "string"
+    },
+    "logo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "slogan": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "state_id": {
+      "model": "state"
+    }
+  }
+}

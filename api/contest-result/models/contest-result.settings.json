@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contest_results",
+  "info": {
+    "name": "contest_result"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "contest_measure_id": {
+      "model": "contest-measure"
+    },
+    "referee_id": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "weight": {
+      "type": "string"
+    }
+  }
+}

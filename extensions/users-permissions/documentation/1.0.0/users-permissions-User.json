@@ -1250,6 +1250,12 @@
                 "type": "string"
               }
             }
+          },
+          "full_name": {
+            "type": "string"
+          },
+          "phone": {
+            "type": "string"
           }
         }
       },
@@ -1290,6 +1296,12 @@
             "default": false
           },
           "role": {
+            "type": "string"
+          },
+          "full_name": {
+            "type": "string"
+          },
+          "phone": {
             "type": "string"
           },
           "created_by": {

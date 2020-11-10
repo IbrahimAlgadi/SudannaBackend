@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "states",
+  "info": {
+    "name": "state"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "country_id": {
+      "model": "country"
+    },
+    "ar_name": {
+      "type": "string"
+    },
+    "en_name": {
+      "type": "string"
+    },
+    "ar_description": {
+      "type": "string"
+    },
+    "en_description": {
+      "type": "text"
+    },
+    "manager_id": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "is_visible": {
+      "type": "boolean"
+    }
+  }
+}

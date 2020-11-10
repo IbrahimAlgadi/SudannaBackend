@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contest_measures",
+  "info": {
+    "name": "contest_measure"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "contest_id": {
+      "model": "contest"
+    },
+    "measure_id": {
+      "model": "measure"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "is_required": {
+      "type": "boolean"
+    }
+  }
+}

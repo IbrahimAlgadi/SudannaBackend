@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contestors",
+  "info": {
+    "name": "contestor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "fname": {
+      "type": "string"
+    },
+    "rest_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "avatar": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "phone": {
+      "type": "string"
+    },
+    "password": {
+      "type": "text"
+    },
+    "country_id": {
+      "model": "country"
+    }
+  }
+}

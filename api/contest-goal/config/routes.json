@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contest-goals",
+      "handler": "contest-goal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contest-goals/count",
+      "handler": "contest-goal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contest-goals/:id",
+      "handler": "contest-goal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/contest-goals",
+      "handler": "contest-goal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contest-goals/:id",
+      "handler": "contest-goal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contest-goals/:id",
+      "handler": "contest-goal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contest-referees",
+      "handler": "contest-referee.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contest-referees/count",
+      "handler": "contest-referee.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contest-referees/:id",
+      "handler": "contest-referee.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/contest-referees",
+      "handler": "contest-referee.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contest-referees/:id",
+      "handler": "contest-referee.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contest-referees/:id",
+      "handler": "contest-referee.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
