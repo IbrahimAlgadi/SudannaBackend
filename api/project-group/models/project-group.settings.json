@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_groups",
+  "info": {
+    "name": "project_group"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "project_id": {
+      "model": "project"
+    },
+    "group_id": {
+      "model": "group"
+    },
+    "manager_id": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "is_visible": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statuses",
+  "info": {
+    "name": "status"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ar_title": {
+      "type": "string"
+    },
+    "en_title": {
+      "type": "string"
+    },
+    "ar_description": {
+      "type": "text"
+    },
+    "en_description": {
+      "type": "text"
+    },
+    "is_visible": {
+      "type": "boolean"
+    }
+  }
+}

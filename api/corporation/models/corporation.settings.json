@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corporations",
+  "info": {
+    "name": "corporation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "state_id": {
+      "model": "state"
+    },
+    "field_id": {
+      "model": "field"
+    },
+    "speciality_id": {
+      "model": "speciality"
+    },
+    "ar_name": {
+      "type": "string"
+    },
+    "en_name": {
+      "type": "string"
+    },
+    "ar_description": {
+      "type": "text"
+    },
+    "en_description": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "phone2": {
+      "type": "string"
+    },
+    "license": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "address_1": {
+      "type": "text"
+    },
+    "address_2": {
+      "type": "text"
+    },
+    "join_date": {
+      "type": "datetime"
+    },
+    "is_visible": {
+      "type": "boolean"
+    },
+    "manager_id": {
+      "plugin": "admin",
+      "model": "user"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fields",
+  "info": {
+    "name": "field"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ar_name": {
+      "type": "string"
+    },
+    "en_name": {
+      "type": "string"
+    },
+    "ar_description": {
+      "type": "text"
+    },
+    "en_description": {
+      "type": "string"
+    },
+    "is_visible": {
+      "type": "boolean"
+    },
+    "manager_id": {
+      "plugin": "admin",
+      "model": "user"
+    }
+  }
+}

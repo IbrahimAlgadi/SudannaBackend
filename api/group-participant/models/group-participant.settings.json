@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "group_participants",
+  "info": {
+    "name": "group_participant"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "group_id": {
+      "model": "group"
+    },
+    "user_id": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "role_id": {
+      "plugin": "users-permissions",
+      "model": "role"
+    },
+    "is_visible": {
+      "type": "boolean"
+    },
+    "manager_id": {
+      "plugin": "admin",
+      "model": "user"
+    }
+  }
+}
