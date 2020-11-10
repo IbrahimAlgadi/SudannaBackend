@@ -12,6 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
+    "sails-mysql": "^1.0.1",
     "sqlite3": "latest",
     "strapi": "3.2.4",
     "strapi-admin": "3.2.4",
