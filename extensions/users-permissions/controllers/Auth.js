@@ -73,7 +73,7 @@ module.exports = {
         query.username = params.identifier;
       }
 
-      console.log(query)
+      // console.log(query)
 
       // Check if the user exists.
       const user = await strapi.query('user', 'users-permissions').findOne(query);
