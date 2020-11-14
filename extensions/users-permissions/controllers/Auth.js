@@ -67,7 +67,7 @@ module.exports = {
       if (isEmail) {
         query.email = params.identifier.toLowerCase();
       }
-      if (isPhone) {
+      else if (isPhone) {
         query.phone = params.identifier.toLowerCase();
       } else {
         query.username = params.identifier;
