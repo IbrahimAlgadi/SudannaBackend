@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "projects",
   "info": {
-    "name": "project"
+    "name": "project",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -32,7 +33,7 @@
       "model": "field"
     },
     "manager_id": {
-      "plugin": "admin",
+      "plugin": "users-permissions",
       "model": "user"
     },
     "is_visible": {

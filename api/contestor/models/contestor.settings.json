@@ -41,7 +41,7 @@
       "model": "country"
     },
     "account_id": {
-      "plugin": "admin",
+      "plugin": "users-permissions",
       "model": "user"
     }
   }
