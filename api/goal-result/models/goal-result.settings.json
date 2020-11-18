@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "goal_results",
+  "info": {
+    "name": "GoalResult"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "contest_id": {
+      "model": "contest"
+    },
+    "contest_goal_id": {
+      "model": "contest-goal"
+    },
+    "ar_note": {
+      "type": "text"
+    },
+    "en_note": {
+      "type": "text"
+    }
+  }
+}
